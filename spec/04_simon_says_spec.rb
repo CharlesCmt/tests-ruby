@@ -33,6 +33,9 @@ describe "Simon says" do
     it "should repeat a number of times" do
       expect(repeat("hello", 3)).to eq("hello hello hello")
     end
+    it "Should test something new" do
+      expect(repeat("Hey", 6)).to eq("Hey Hey Hey Hey Hey Hey")
+    end
   end
 
   describe "start_of_word" do

@@ -19,11 +19,10 @@ def multiply (number1, number2)
     return number1 * number2
 end
 #Power method
-def power(number)
-    number ** number
+def power(n, n1)
+    n ** n1
 end
 #Factorial recursiv method
 def factorial(num)
-    return 1 if num == 0
-    return num * factorial(num - 1)
+    (num <= 1) ? 1 : num * factorial(num - 1)
 end
